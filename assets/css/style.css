@@ -1,0 +1,179 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.header .left {
+    display: flex;
+    align-items: center;
+}
+
+.header .center {
+    display: flex;
+    align-items: stretch;
+    padding: .2rem 0;
+}
+
+.header .right {
+    display: flex;
+    align-items: center;
+}
+
+.header .left .menu {
+    margin: 0 .5rem;
+}
+
+.header .left .youtube {
+    margin: 0 1rem;
+}
+
+.header .center .search {
+    margin: 0;
+    margin-left: .5rem;
+    border: .1rem solid #cccccc;
+}
+
+.header .center .search-img {
+    margin: 0;
+    margin-right: .5rem;
+    border: .1rem solid #cccccc;
+    background-color: #f8f8f8;
+    padding: .1rem;
+}
+
+.header .right .video {
+    margin: 0 .5rem;
+}
+
+.header .right .bell {
+    margin: 0 .5rem;
+}
+
+.header .right .avatar {
+    margin: 0 .5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 0 1.5rem 0 3rem;
+}
+
+.section .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section .video img {
+    width: 100%;
+}
+
+.section .video h4 {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: .5rem 0 1rem;
+}
+
+.section .video-actions {
+    width: 100%;
+    padding: .5rem 0;
+}
+
+.video-actions, .channel-infos, .like, .dislike, .share, .download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video-actions img {
+    margin: 0 .25rem;
+    width: 1.5rem;
+}
+
+.video-actions h5 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.video-actions h6 {
+    font-size: .75rem;
+    margin: 0;
+}
+
+.video-actions .channel-infos {
+    margin-left: 0;
+}
+
+.video-actions .channel-infos img{
+    margin-right: .5rem;
+}
+
+.video-actions .channel-infos h6 {
+    font-weight: 400;
+    color: #515151;
+}
+
+.video-actions .subscribe{
+    background-color: #cc0000;
+    height: 100%;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+}
+
+.section .views {
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.section .description {
+    font-weight: 400;
+    color: #515151;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.suggestion {
+    display: flex;
+    flex-direction: row;
+    margin: .5rem;
+}
+
+.suggestion .suggestion-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: .5rem;
+}
+
+.suggestion .suggestion-info h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: .25rem 0;
+}
+
+.suggestion .suggestion-info h6 {
+    font-weight: 400;
+    font-size: .75rem;
+    margin: .25rem 0;
+    color: #515151;
+}
